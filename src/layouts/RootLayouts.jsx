@@ -3,6 +3,7 @@ import Button from "./Button"
 import menu from '../assets/icons/menu.svg'
 import cancel from '../assets/icons/cancel.svg'
 import { useState } from "react"
+import logo from "../assets/img/Logo.png"
 
 
 const RootLayouts = () => {
@@ -14,7 +15,7 @@ const RootLayouts = () => {
               to-primary-light from-blue-500 p-5 md:justify-between shadow-md">
                 <div className="ml-5 font-bold text-lg ">
                     <a href="" className="flex ">
-                        <img src="../assets/img/Logo.png" className="w-12  mr-3"></img>
+                        <img src={logo} className="w-12  mr-3"></img>
                         <h1 className="md:m-auto font-fatface text-[2em] flex items-center text-white ">ABUAD</h1>
                     </a>
                 </div>
